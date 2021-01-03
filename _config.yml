@@ -1,0 +1,100 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Leeyuanhe's HomePages
+subtitle:
+description: Talk is cheap,show me the code
+author: 進撃の碼農
+language: zh-CN
+avatar: /images/avatar.jpg
+timezone:
+
+
+# Social links
+social:
+  github: https://github.com/leeyuanhe
+  weibo: http://weibo.com/guystrive
+  zhihu: http://www.zhihu.com/people/he-da-69
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://leeyuanhe.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: cactus
+
+sitemap:
+    path: sitemap.xml
+
+    
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+#duoshuo
+# duoshuo_shortname: leeyuanhe
+# duoshuo_share: true
+
+#baidutongji
+baidu_analytics: 7760dc47f4e746d65e82f9266c53dcd4
+ 
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: https://github.com/leeyuanhe/leeyuanhe.github.io.git
+  branch: main
+  
+
+since: 2016
